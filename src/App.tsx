@@ -2,7 +2,11 @@ import React from "react";
 import "./App.css";
 
 function App() {
-  return <div className="App">Welcome</div>;
+  return (
+    <>
+      <div className="App"> ODC MARKET PRICE LIST</div>
+    </>
+  );
 }
 
 export default App;
