@@ -5,7 +5,7 @@ import Image from "./assets/Image";
 function App() {
   return (
     <>
-      <div className="App"> ODC MARKET PRICE LIST</div>
+      <div className="App"> ODC MARKET PRICE LISTs</div>
       <img src={Image?.Tomato1} alt="tomato" />
     </>
   );
