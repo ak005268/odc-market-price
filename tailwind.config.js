@@ -16,16 +16,19 @@ module.exports = {
       "color-red": "#FF0000",
       "color-mild": "#eef2e6",
       "color-blue": "#362abd",
+      sky: {
+        100: "#87CEEB",
+        200: "#87CEEC",
+      },
+      green: {
+        100: "#3cdb2e",
+      },
       gray: {
         100: "#f7fafc",
         900: "#1a202c",
       },
     },
-    spacing: {
-      px: "1px",
-      0: "0",
-      0.5: "0.125rem",
-    },
+
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
       serif: ["Merriweather", "serif"],
@@ -38,12 +41,14 @@ module.exports = {
       full: "9999px",
     },
     extend: {
-      spacing: {
-        128: "32rem",
-        144: "36rem",
-      },
       borderRadius: {
         "4xl": "2rem",
+      },
+      spacing: {
+        px: "1px",
+        0: "0",
+        0.5: "0.125rem",
+        190: "100rem",
       },
     },
   },
