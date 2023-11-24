@@ -8,12 +8,12 @@ const Content = () => {
   const date = today.getDate();
   const currentDate = date + "/" + month + "/" + year;
   return (
-    <div className="grid  place-items-center">
-      {/* <div className="bg-sky-100 p-4 text-center">
+    <div className="aa grid h-screen place-items-center ">
+      <div className="bg-sky-100 p-4 text-center">
         ஒட்டன்சத்திரம் இன்றைய காய்கறி விலை நிலவரம் | oddanchatram vegetable
         market price today
         <p className="text-color-blue text-3xl font-semibold ">{currentDate}</p>
-      </div> */}
+      </div>
       {/* 
       <div className="bg-color-gray-light flex flex-col">
         {Object.entries(rate?.[0]).map(([vegetable, price]) => (

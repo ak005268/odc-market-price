@@ -22,3 +22,13 @@
 .completed p {
   @apply text-color-gray-dark;
 }
+
+.aa {
+  background-image: url("../images/setlight.jpg");
+  // You can include other background properties as needed:
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  // Add more properties like background-position if necessary
+}

@@ -4,7 +4,7 @@
 const Header = () => {
   return (
     <div>
-      <div className="">
+      <div className="bg-color-blue opacity-50">
         {/* <img src={Image.Logo} className="w-[160px] h-[74px]" alt="kk" /> */}
         <h1 className=" text-center">Welcome</h1>
       </div>
