@@ -8,7 +8,7 @@ const AdminLayout = () => {
         {" "}
         Welcome to AdminLayout
       </p>
-      <div className="p-4">
+      <div className="">
         <Outlet />
       </div>
     </div>

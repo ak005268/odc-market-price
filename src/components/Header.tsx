@@ -2,11 +2,21 @@
 // import Image from "../components/Image";
 
 const Header = () => {
+  const menu = [
+    { name: "Home", nav: "/home" },
+    { name: "Price", nav: "/Price" },
+    { name: "About", nav: "/About" },
+  ];
   return (
     <div>
-      <div className="bg-color-blue opacity-50">
-        {/* <img src={Image.Logo} className="w-[160px] h-[74px]" alt="kk" /> */}
-        <h1 className=" text-center">Welcome</h1>
+      <div className="bg-color-blue  opacity-50">
+        <ul className="flex right-0">
+          {menu.map((item: any) => (
+            <>
+              <li className="text-color-mild ml-2">{item?.name}</li>
+            </>
+          ))}
+        </ul>
       </div>
     </div>
   );
