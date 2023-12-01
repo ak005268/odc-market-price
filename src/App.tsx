@@ -6,6 +6,8 @@ import UserLayout from "./layouts/UserLayout";
 import Content from "./pages/__tests__/Content";
 import AdminLayout from "./layouts/AdminLayout";
 import OuterLayout from "./layouts/OuterLayout";
+import Test from "./pages/__tests__/Test";
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +21,7 @@ function App() {
 
         <Route path="/" element={<OuterLayout />}>
           <Route path="sample3" element={<Content />} />
+          <Route path="test" element={<Test />} />
         </Route>
       </Routes>
     </BrowserRouter>
